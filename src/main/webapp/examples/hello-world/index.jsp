@@ -7,7 +7,7 @@
    if (signedRequest == null) {%>This App must be invoked via a signed request!<%
         return;
     }
-	String yourConsumerSecret="YOUR CONSUMER KEY";
+	String yourConsumerSecret="E4176F173B6368E2AA14E06173926D1CE523968A45688D74EE182F76CDCEF58A";
     String signedRequestJson = SignedRequest.verifyAndDecodeAsJson(signedRequest[0], yourConsumerSecret);
 %>
 
